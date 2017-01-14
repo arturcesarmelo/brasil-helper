@@ -39,7 +39,7 @@ echo BrasilHelper::checkIE('0136042371217', 'AC');
 
 echo BrasilHelper::makeCPF();
 
-echo BrasilHelper::makeCNPJ
+echo BrasilHelper::makeCNPJ();
 
 var_dump(BrasilHelper::estados());
 
