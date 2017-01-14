@@ -6,7 +6,7 @@ BrasilHelper é um projeto open source que empacota via pacote composer um poder
 
 BrasilHelper é um pacote PHP distribuido via composer, então para instalar rode o comando abaixo:
 
- 
+
 ```php
 php composer require sururulab/brasil-helper
 ```
@@ -37,9 +37,15 @@ echo BrasilHelper::checkCPF('635.850.266-21');
 
 echo BrasilHelper::checkIE('0136042371217', 'AC');
 
+echo BrasilHelper::makeCPF();
+
+echo BrasilHelper::makeCNPJ
+
 var_dump(BrasilHelper::estados());
 
 var_dump(BrasilHelper::bancosBrasileiros());
+
+var_dump(BrasilHelper::estado('AL'));
 
 ```
 
@@ -72,5 +78,3 @@ if(BrasilHelper::checkCPF('635.850.266-21')){
 ## Contribua
 
 Pull Request's são muito bem vindos!
-
-
